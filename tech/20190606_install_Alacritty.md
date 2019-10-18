@@ -22,6 +22,16 @@ $ make app
 $ cp -r target/release/osx/Alacritty.app /Applications/
 ```
 
+## Update
+
+```
+$ cd .ghq/github.com/jwilm/alacritty
+$ rustup override set stable
+$ rustup update stable
+$ make app
+$ cp -r target/release/osx/Alacritty.app /Applications/
+```
+
 ## setting
 
 WIP
